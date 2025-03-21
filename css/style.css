@@ -23,7 +23,7 @@ h1 {
 .card {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 25%;
     padding: 2rem 3rem  5rem;
     justify-content: space-between;
 }
@@ -83,6 +83,9 @@ h1 {
     .content {
         display: flex;
         flex-direction: column;
+    }
+    .card {
+        width: 100%;
     }
     .card-sedans {
         border-top-left-radius: 10px;
