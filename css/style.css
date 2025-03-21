@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Lexend Deca";
+    src: url(../font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+    font-size: 400px;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+    font-size: 700px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+
+
+}
+p  {
+font-family: "Lexend Deca";
+margin-bottom: 5rem;
+}
+h1 {
+    font-family: "Roboto";
+    text-transform:uppercase;
+    margin-top: 2rem;
+
+}
+.content {
+    display: flex;
+    color: #ffffff;
+
+}
+.sedans {
+    background-color: #e38826;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+    padding: 2rem 3rem  5rem;
+    justify-content: space-between;
+
+}
+
+.suvs {
+    background-color: #006970;
+    width: 300px;
+
+}
+.luxury {
+    background-color: #004241;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+a {
+    font-family: "Lexend Deca";
+    background-color: white;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #e38826;
+    text-decoration: none;
+
+}
+a:hover {
+    background-color: #e38826;
+    border: 1px solid white;
+    color: white;
+}
